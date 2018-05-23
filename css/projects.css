@@ -18,3 +18,21 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+  .tile {
+    display: block;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:699px) {
+  body {
+    text-align: center;
+  }
+  .tile {
+    display: block;
+    Width: 100%;
+    border: none;
+  }
+}

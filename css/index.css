@@ -34,12 +34,27 @@ header, .experience {
 
 /* for tablet */
 
-@media screen and (min-width: 700px) and (max-width: 2500px){
+/* @media screen and (min-width: 700px) and (max-width: 1000px){
+	header, section {
 
-}
+	}
+} */
 
 /* for mobile */
 
-@media screen and (max-width: 700px){
-
+@media screen and (max-width: 699px) {
+	.left, .right {
+		width: 100%;
+		text-align: center;
+		border: 0;
+	}
+	ul li {
+		list-style: none;
+	}
+	ul {
+		padding: 0;
+	}
+	header, .experience {
+		border: none;
+	}
 }
